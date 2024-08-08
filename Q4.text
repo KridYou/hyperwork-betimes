@@ -1,0 +1,33 @@
+git init
+ใช้ในการติดตั้ง git สำหรับ repository
+
+git clone
+ใช้โคลนโปรเจคจาก git hub
+
+git status
+ใช้เพื่อตรวจสอบสถานะ
+
+git add
+ใช้เพื่อ stage ไฟล์ที่ต้องการ commit
+
+git commit -m "<message>"
+ใช้ commit code
+
+git branch
+ใช้เพื่อตรวจสอบชื่อ branch ทั้งหมด
+
+git checkout <branch-name>
+Switches to the specified branch or commit. Use -b to create and switch to a new branch.
+ใช้สำหรับ checkout code ของ branch ที่เราจำทำการแก้ไข
+
+git merge <branch-name>
+ใช้ merge branch
+
+git pull
+ใช้เพื่ออัพเดตโค้ดของเราให้เท่ากับปัจจุบัน
+
+git push
+ใช้เพื่ออัพโค้ดของเราขึ้น github
+
+git reset <file>
+ใช้เพื่อ reset โค้ดให้กลับไปอยู่ในสถานะเดิม
